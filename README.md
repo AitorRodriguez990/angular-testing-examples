@@ -7,8 +7,8 @@ Angular Testing Examples. This project is using [angular-seed](https://github.co
 
 ### Prerequisites
 
-* Install GIT: [http://git-scm.com/](http://git-scm.com/).
-* Install NodeJS: [http://nodejs.org/](http://nodejs.org/).
+* Install GIT: [http://git-scm.com/](http://git-scm.com/)
+* Install NodeJS: [http://nodejs.org/](http://nodejs.org/)
 
 ### Install Dependencies
 
@@ -26,7 +26,7 @@ Start the server:
 npm start
 ```
 
-Now application is running at `http://localhost:8000/index.html`.
+Now application is running at `http://localhost:8000/index.html`
 
 
 ## Directory Layout
@@ -69,7 +69,7 @@ In this project you can see unit tests and end-to-end tests.
 These are written in [Jasmine][jasmine], which we run with the [Karma Test Runner][karma].
 
 * The configuration is found at `karma.conf.js`
-* The unit tests are found next to the code they are testing and are named as `..._test.js`.
+* The unit tests are found next to the code they are testing and are named as `..._test.js`
 
 Run the unit tests:
 
@@ -77,7 +77,7 @@ Run the unit tests:
 npm test
 ```
 
-If you want to check that a particular version of the code is operating as expected;
+If you want to check that a particular version of the code is operating as expected:
 
 ```
 npm run test-single-run
@@ -116,3 +116,10 @@ If JDK is not already installed, you can download it [here][jdk-download].
 ## Copyright
 
 Copyright (c) 2016 Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Directive licensed under the MIT License.
+
+[jasmine]: https://jasmine.github.io
+[karma]: https://karma-runner.github.io
+[protractor]: https://github.com/angular/protractor
+[selenium]: http://docs.seleniumhq.org/
+[jdk]: https://en.wikipedia.org/wiki/Java_Development_Kit
+[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
