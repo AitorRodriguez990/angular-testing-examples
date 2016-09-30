@@ -85,7 +85,7 @@ npm run test-single-run
 
 ### End to end testing
 
-These are again written in [Jasmine][jasmine]. These tests are run with the [Protractor][protractor] End-to-End test runner.
+These are again written in [Jasmine][jasmine]. These tests are run with the [Protractor][protractor] End-to-End test runner. [Here][jasmine-docs] you can see documentation about Jasmine.
 
 * The configuration is found at `e2e-tests/protractor-conf.js`
 * The end-to-end tests are found in `e2e-tests/scenarios.js`
@@ -118,6 +118,7 @@ If JDK is not already installed, you can download it [here][jdk-download].
 Copyright (c) 2016 Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Licensed under the MIT License.
 
 [jasmine]: https://jasmine.github.io
+[jasmine-docs]: https://github.com/angular/protractor/blob/master/docs/toc.md
 [karma]: https://karma-runner.github.io
 [protractor]: https://github.com/angular/protractor
 [selenium]: http://docs.seleniumhq.org/
