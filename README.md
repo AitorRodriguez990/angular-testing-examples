@@ -1,6 +1,6 @@
 # angular-testing-examples
 
-Angular Testing Examples. This project is using [angular-seed](https://github.com/angular/angular-seed).
+Angular Testing Examples to [Pisos.com](http://www.pisos.com). This project is using [angular-seed](https://github.com/angular/angular-seed).
 
 
 ## Getting Started
@@ -12,7 +12,7 @@ Angular Testing Examples. This project is using [angular-seed](https://github.co
 
 ### Install Dependencies
 
-'npm' is preconfigured `npm` to automatically run `bower` so we can simply do:
+`npm` is preconfigured to automatically run `bower`, so we can simply do:
 
 ```
 npm install
@@ -115,7 +115,7 @@ If JDK is not already installed, you can download it [here][jdk-download].
 
 ## Copyright
 
-Copyright (c) 2016 Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Directive licensed under the MIT License.
+Copyright (c) 2016 Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Licensed under the MIT License.
 
 [jasmine]: https://jasmine.github.io
 [karma]: https://karma-runner.github.io
