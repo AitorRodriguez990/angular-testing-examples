@@ -10,9 +10,13 @@ angular.module('myApp.contact', ['ngRoute'])
 }])
 
 .controller('ContactController', ['$scope', '$rootScope', function($scope, $rootScope) {
-    $rootScope.contactActive = true;
-    $scope.waitReply = false;
+    $rootScope.menu = {
+        home: false,
+        operation: false,
+        contact: true
+    };
 
+    $scope.waitReply = false;
     $scope.sendContact = function() {
         $scope.waitReply = true;
     };

@@ -29,8 +29,9 @@
         <!-- CONTENT -->
         <div class="container content">
             <ul class="nav nav-tabs">
-                <li role="presentation" class="tab" ng-class="{'active': $root.homeActive}"><a href="#!/home">Home</a></li>
-                <li role="presentation" class="tab" ng-class="{'active': $root.contactActive}"><a href="#!/contact">Contact</a></li>
+                <li role="presentation" class="tab" ng-class="{'active': $root.menu.home}"><a href="#!/home">Home</a></li>
+                <li role="presentation" class="tab" ng-class="{'active': $root.menu.operation}"><a href="#!/operation">Operation</a></li>
+                <li role="presentation" class="tab" ng-class="{'active': $root.menu.contact}"><a href="#!/contact">Contact</a></li>
             </ul>
 
             <!-- PAGE -->
@@ -53,12 +54,12 @@
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="app.js"></script>
         <script src="home/home.js"></script>
+        <script src="operation/operation.js"></script>
         <script src="contact/contact.js"></script>
         <script src="components/version/version.js"></script>
         <script src="components/version/version-directive.js"></script>
         <script src="components/version/interpolate-filter.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="scripts.js"></script>
     </body>
 </html>

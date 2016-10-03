@@ -10,5 +10,9 @@ angular.module('myApp.home', ['ngRoute'])
 }])
 
 .controller('HomeController', ['$scope', '$rootScope', function($scope, $rootScope) {
-    $rootScope.homeActive = true;
+    $rootScope.menu = {
+        home: true,
+        operation: false,
+        contact: false
+    };
 }]);
