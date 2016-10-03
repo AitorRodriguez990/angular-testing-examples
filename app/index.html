@@ -29,8 +29,8 @@
         <!-- CONTENT -->
         <div class="container content">
             <ul class="nav nav-tabs">
-                <li role="presentation" class="tab active"><a href="#!/home">Home</a></li>
-                <li role="presentation" class="tab"><a href="#!/contact">Contact</a></li>
+                <li role="presentation" class="tab" ng-class="{'active': $root.homeActive}"><a href="#!/home">Home</a></li>
+                <li role="presentation" class="tab" ng-class="{'active': $root.contactActive}"><a href="#!/contact">Contact</a></li>
             </ul>
 
             <!-- PAGE -->

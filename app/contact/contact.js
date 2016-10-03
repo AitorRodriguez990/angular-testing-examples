@@ -9,6 +9,11 @@ angular.module('myApp.contact', ['ngRoute'])
   });
 }])
 
-.controller('ContactController', [function() {
+.controller('ContactController', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $rootScope.contactActive = true;
+    $scope.waitReply = false;
 
+    $scope.sendContact = function() {
+        $scope.waitReply = true;
+    };
 }]);

@@ -9,6 +9,6 @@ angular.module('myApp.home', ['ngRoute'])
   });
 }])
 
-.controller('HomeController', [function() {
-
+.controller('HomeController', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $rootScope.homeActive = true;
 }]);
