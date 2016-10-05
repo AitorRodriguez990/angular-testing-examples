@@ -9,8 +9,21 @@ describe('My App', function() {
 
     describe('Home', function() {
         it('should render home when user navigates to /home', function() {
-            expect(element.all(by.css('[ng-view] h3')).first().getText()).
-            toMatch(/Home/);
+            expect(element.all(by.css('[ng-view] h3')).first().getText()).toMatch(/Home/);
+        });
+    });
+
+    describe('Operation', function() {
+        it('should render operation when user navigates to /operation', function() {
+            browser.get('index.html#!/operation');
+            browser.sleep(3000);
+            expect(element.all(by.css('[ng-view] h3')).first().getText()).toMatch(/Operation/);
+        });
+
+        it('should select rent operation', function() {
+
+            expect(element(by.model('typeOperation')).getText()).toMatch(/rent/);
+            browser.sleep(3000);
         });
     });
 
@@ -18,8 +31,7 @@ describe('My App', function() {
         it('should render contact when user navigates to /contact', function() {
             browser.get('index.html#!/contact');
             browser.sleep(3000);
-            expect(element.all(by.css('[ng-view] h3')).first().getText()).
-            toMatch(/Contact/);
+            expect(element.all(by.css('[ng-view] h3')).first().getText()).toMatch(/Contact/);
         });
 
         it('should write on inputs and read a success message', function() {
@@ -39,10 +51,9 @@ describe('My App', function() {
             browser.sleep(1000);
 
             element(by.css('.btn-primary.send-contact')).click();
-            expect(element.all(by.css('[ng-view] p')).first().getText()).
-            toMatch(/Contact form sended successfully. Wait the reply now./);
+            expect(element.all(by.css('[ng-view] p')).first().getText()).toMatch(/Contact form sended successfully. Wait the reply now./);
 
-            browser.sleep(5000);
+            browser.sleep(3000);
         });
     });
 });
