@@ -59,12 +59,6 @@ These are again written in [Jasmine][jasmine]. These tests are run with the [Pro
 * The configuration is found at `e2e-tests/protractor-conf.js`
 * The end-to-end tests are found in `e2e-tests/scenarios.js`
 
-Our web server needs to be serving up the application:
-
-```
-npm start
-```
-
 Install WebDriver. This script will download and install the latest version of the stand-alone WebDriver tool:
 
 ```
