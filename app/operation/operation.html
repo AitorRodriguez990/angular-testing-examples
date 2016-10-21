@@ -1,8 +1,14 @@
 <h3>Operation</h3>
 
-<label for="type">Select the type of operation:</label>
-<select name="type" id="type" ng-model="typeOperation" class="form-control">
-    <option value="">Select an option</option>
-    <option value="sell">Sell</option>
-    <option value="rent">Rent</option>
-</select>
+<div class="form-group">
+    <label for="type">Select the type of operation:</label>
+    <select name="type" id="type" ng-model="typeOperation" class="form-control">
+        <option value="">Select an option</option>
+        <option value="sell">Sell</option>
+        <option value="rent">Rent</option>
+    </select>
+</div>
+
+<p>
+    Selected operation is: <span class="result-model">{{typeOperation}}</span>
+</p>

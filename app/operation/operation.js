@@ -16,5 +16,5 @@ angular.module('myApp.operation', ['ngRoute'])
         contact: false
     };
 
-    $scope.typeOperation = 'rent';
+    $scope.typeOperation = '';
 }]);

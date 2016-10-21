@@ -21,8 +21,8 @@ describe('My App', function() {
         });
 
         it('should select rent operation', function() {
-
-            expect(element(by.model('typeOperation')).getText()).toMatch(/rent/);
+            element(by.model('typeOperation')).sendKeys('rent');
+            expect(element.all(by.css('span.result-model')).getText()).toMatch(/rent/);
             browser.sleep(3000);
         });
     });
