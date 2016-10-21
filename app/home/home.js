@@ -17,6 +17,6 @@ angular.module('myApp.home', ['ngRoute'])
     };
 
     function helloWorld() {
-        return 'Hello World';
+        return 'Hello World!';
     };
 }]);
