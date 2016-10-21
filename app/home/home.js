@@ -15,4 +15,8 @@ angular.module('myApp.home', ['ngRoute'])
         operation: false,
         contact: false
     };
+
+    function helloWorld() {
+        return 'Hello World';
+    };
 }]);
