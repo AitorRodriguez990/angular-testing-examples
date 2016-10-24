@@ -16,7 +16,7 @@ angular.module('myApp.home', ['ngRoute'])
         contact: false
     };
 
-    function helloWorld() {
+    $scope.helloWorld = function() {
         return 'Hello World!';
     };
 }]);
